@@ -49,7 +49,7 @@ namespace WinFormsApp2
             textBox1.Text = ee.ToString();
         }
 
-        private void _Click(object sender, EventArgs e)
+        private void _Click(object sender, EventArgs e) 
         {
             Button bb = (Button)sender;
             a = bb.Text;
